@@ -1,0 +1,51 @@
+.productWrapper {
+    margin: 10px auto;
+}
+
+.description {
+    margin: 5px auto;
+    width: 180px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #3883c8;
+    cursor: pointer;
+}
+
+.rating {
+    margin-left: -10px;
+}
+
+.priceWrapper {
+    margin: 2px;
+    display: flex;
+}
+
+.priceWrapper > img {
+    margin-top: -65px;
+}
+
+.primeLogo {
+    z-index: -1;
+    position: relative;
+    top: 33px;
+    width: 100px;
+    height: 80px;
+}
+
+.productPrice {
+    margin-left: 10px;
+    color: #b21205;
+}
+
+.reviewButtonInProduct {
+    margin: 10px 5px;
+    width: 190px;
+    padding: 5px 10px;
+}
+
+.imageInProduct {
+    height: 200px;
+    width: 200px;
+}

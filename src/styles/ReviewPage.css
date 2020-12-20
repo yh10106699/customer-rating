@@ -1,0 +1,94 @@
+.reviewPageWrapper {
+    border: 1px solid black;
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.customerReviews {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.reviewHeader {
+    margin: 1rem;
+}
+
+.reviewHeader > div {
+    margin-left: 10px;
+}
+
+.ratingSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.writeReview {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.reviewButton {
+    font-size: 1rem;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.reviewForm {
+    background: white;
+    z-index: 1;
+    position: absolute;
+    margin: 20px auto;
+    padding: 10px;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 60%;
+    border: 1px solid black;
+}
+
+.imageWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.productImage1 {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.headerInput {
+    width: 95%;
+    height: 15px;
+    padding: 5px;
+}
+
+.reviewInput {
+    pading: 5px;
+    height: 100px;
+    width: 95%;
+}
+
+.submitButton {
+    position: relative;
+    right: -80%;
+    width: 60px;
+    margin: 5px;
+    padding: 5px;
+    background: rgb(255, 153, 0);
+}
+
+
+.closeButton {
+    position: relative;
+    right: -80%;
+    width: 60px;
+
+    margin: 5px;
+    padding: 5px;
+    background: rgb(255, 153, 0);
+}
+

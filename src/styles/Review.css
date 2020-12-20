@@ -1,0 +1,12 @@
+.reviewWrapper {
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+
+}
+
+.header {
+    display: inline-block;
+}
